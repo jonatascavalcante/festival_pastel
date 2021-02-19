@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,600');
 
 body {
-  	background: #FEA520;
-  	color: #FBFEF9;
+  	background: #FEAD34;
+  	color: #000000;
 }
 
 body, h1 {
@@ -12,6 +12,7 @@ body, h1 {
 
 .bar {
 	background-color: #D72638;
+	color: #FFFFFF;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
