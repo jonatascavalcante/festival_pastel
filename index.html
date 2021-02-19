@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	    <meta charset="utf-8">
+	   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="Renascer - Festival de Pastel">
+	    <meta name="author" content="Jonatas Cavalcante">
+
+	    <title>Festival de Pastel</title>
+
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<form id="taf_form">
+		    	<ul class="flex-outer">
+		    		<li>
+		    			<div class="bar">
+							<h1>Festival de Pastel</h1>
+							<i class="fas fa-utensils"></i>
+						</div>
+		    		</li>
+		    		<li>
+				    	<label for="cor_comanda">Cor da Comanda</label>
+						<div>
+							<input type="radio" id="azul" name="cor_comanda" value="azul" checked>
+						  	<label for="huey">Azul</label>
+						  	<input type="radio" id="branca" name="cor_comanda" value="branca">
+						  	<label for="branca">Branca</label>
+						</div>
+			    	</li>
+				   	<li>
+					   	<div class="bar">
+							<h1>Pastel</h1>
+						</div>
+					</li>
+				   	<li id="carne">
+			    		<label for="qtd_carne">Carne</label>
+			    		<input type="number" id="qtd_carne" name="qtd_carne" placeholder="Pastéis de carne">
+			    	</li>
+			    	<li id="frango">
+			    		<label for="qtd_frango">Frango</label>
+			    		<input type="number" id="qtd_frango" name="qtd_frango" placeholder="Pastéis de frango">
+			    	</li>
+			    	<li id="presunto">
+			    		<label for="qtd_presunto">Presunto e queijo</label>
+			    		<input type="number" id="qtd_presunto" name="qtd_presunto" placeholder="Pastéis de presunto e queijo">
+			    	</li>
+			    	<li>
+					   	<div class="bar">
+							<h1>Refrigerante</h1>
+						</div>
+					</li>
+			    	<li id="copos_refri">
+			    		<label for="qtd_copo_refri_200ml">Copo 200mL</label>
+			    		<input type="number" id="qtd_copo_refri_200ml" name="qtd_copo_refri_200ml" placeholder="Copos 200mL">
+			    	</li>
+			    	<li id="garrafas">
+			    		<label for="qtd_garrafa_2l">Garrada 2L</label>
+			    		<input type="number" id="qtd_garrafa_2l" name="qtd_garrafa_2l" placeholder="Garrafas 2L">
+			    	</li>
+			    	<li>
+					   	<div class="bar">
+							<h1>Suco</h1>
+						</div>
+					</li>
+			    	<li id="copos_suco">
+			    		<label for="qtd_copos_suco_200ml">Copo 200mL</label>
+			    		<input type="number" id="qtd_copos_suco_200ml" name="qtd_copos_suco_200ml" placeholder="Copos 200mL">
+			    	</li>
+			    	<li id="caixas">
+			    		<label for="qtd_caixa_1l">Caixa 1L</label>
+			    		<input type="number" id="qtd_caixa_1l" name="qtd_caixa_1l" placeholder="Caixas de 1L">
+			    	</li>
+			    	<li>
+        				<button type="button" id="btnCalcular">Calcular</button>
+      				</li>
+			    </ul>
+		    </form>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+	    
+	    <script type="text/javascript" src="running.js"></script>
+	    <script type="text/javascript" src="swimming.js"></script>
+	    <script type="text/javascript" src="abdominal.js"></script>
+	    <script type="text/javascript" src="static_bars.js"></script>
+	    <script type="text/javascript" src="dynamic_bars.js"></script>
+	    <script type="text/javascript" src="75m.js"></script>
+	    <script type="text/javascript" src="shuttle_run.js"></script>
+
+	    <script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
